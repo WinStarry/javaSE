@@ -1,0 +1,140 @@
+java.lang.String 类代表字符串
+API中说：Java 程序中的所有字符串字面值（如 "abc" ）都作为此类的实例实现。
+其实就是说：程序中所有的双引号字符串，都是String类的对象。（就算没有new，也照样是！）
+
+字符串的特点：
+1.字符串的内容永不可变【重点】
+2.正因为字符串不可改变，所以字符串是可以共享使用的。
+3.字符串效果上相当于是char[]字符数组，但是底层原理是byte[]字节数组。
+
+创建字符串的常见3+1中方式。
+三种构造方法
+public String() 创建一个空白字符串，不含有任何内容
+public String(char[] array) 根据字符数组的内容，来创建对应的字符串
+public String(byte[] array) 根据字节数组的内容，来创建对应的字符串
+一种直接创建：
+String str = "Hello";//右边直接使用双引号
+
+注意：直接写上双引号，就是字符串对象。
+
+/~~/
+
+字符串常量池：程序中直接写上双引号的字符串，就是在字符串常量池中
+
+对于基本数据类型，==是进行数值的比较
+对于引用类型来说，==是进行【地址值】的比较
+双引号直接写的字符串在常量池中，new的不在池中。
+
+/~~/
+
+==是进行对象的地址值比较，如果确实需要字符串的内容比较，可以使用两个方法：
+
+public boolean equals(Object obj);参数可以是任何对象，只有参数是一个字符串并且内容相同才会给true，否则返回false
+注意事项：
+1.任何对象都能用Object进行接收。
+2.equals()方法具有对称性，也就是a.equals(b)和b.equals(a)效果一样。
+3.如果比较一个常量和一个变量，推荐把常量字符串写在前面
+推荐："abc".equals(str);
+不推荐：str.equals("abc");
+
+public boolean equalsIgnoreCase(String str);进行比较内容时，忽略大小写。
+
+/~~/
+
+String中与获取相关的常用方法有：
+
+public int length();获取字符串中含有的字符串个数，拿到字符串长度
+public String concat(String str);将当前字符串和参数字符串拼接成为返回值新的字符串
+public char charAt(int index);获取指定索引位置的单个字符。（索引从0开始）
+Public int indexOf(String str);查找参数字符串在本字符串中首次出现的索引位置，如果没有返回-1值。
+
+/~~/
+
+字符串的截取方法
+
+public String substring(int index);截取从参数位置一直到字符串末尾，返回新字符串。
+public String substring(int begin,int end);截取从begin开始，一直到end结束，中间的字符串
+备注：[begin,end) 包含左边，不包含右边。
+
+/~~/
+
+String中与转换相关的常用方法
+
+public char[] toCharArray();将当前字符串拆分成字符数组作为返回值
+public byte[] getBytes();获取当前字符串底层的字节数组
+public String replace(CharSequence oldString,CharSequence newString);
+将所有出现的老字符串替换为新字符串，返回替换之后的结果新字符串
+备注：CharSequence意思就是说可以接受字符串类型
+
+/~~/
+
+分割字符串的方法
+public String[] split(String regex);根据参数的规则，将字符串切分成若干部分
+
+注意事项：
+split()方法的参数其实是一个“正则表达式”
+如果想要用英文句点"."进行切分，必须写"\\."(两个分斜杠)
+
+/~~/
+
+如果一个成员变量使用了static关键字，那么这个变量不再属于对象自己，而是属于所在的类。多个对象共享同一份数据。
+
+一旦使用static关键字修饰成员方法，那么这就成为了静态方法。静态方法不属于对象，而是属于类的。
+
+如果没有static关键字，那么必须首先创建对象，然后通过对象才能使用它。
+如果有了static关键字，那么不需要创建对象，直接就能通过类名称来使用它。
+
+对于静态方法来说，可以通过对象名来调用，也可以直接使用类名称来调用。
+但是推荐使用类名称来调用，而不推荐使用对象名进行调用。
+通过对象名进行调用这种写法在编译之后也会被javac翻译成"类名称.静态方法名"。
+
+无论是成员变量还是成员方法，如果使用了static关键字修饰，都推荐使用类名称进行调用。
+静态变量：类名称.静态变量
+静态方法：类名称.静态方法()
+
+对于本类当中的静态方法，在进行调用的时候可以省略类名称不写。
+
+注意事项：
+1.静态不能直接访问非静态。
+原因：因为在内存中是先有的静态内容，后有的非静态的内容。"先人不知道后人，但是后人知道先人"
+2.静态方法中不能使用this
+原因：this代表当前对象，通过谁调用的方法，谁就是当前对象。
+
+/~~/
+
+静态代码块的格式：
+
+public class 类名称{
+    static{
+        //静态代码块的内容
+    }
+}
+
+特点：当第一次执行本类时，静态代码块执行唯一的一次
+静态内容总是优先于非静态，所以静态代码块比构造方法先执行
+
+静态代码块的典型用途：
+用来一次性地对静态成员变量进行赋值。
+
+/~~/
+
+java.util.Arrays 是一个与数组相关地工具类，里面提供了大量静态方法，用来实现数组常见地操作。
+
+public static String toString(数组);将参数数组变成字符串（按照默认格式：[元素1,元素2,元素3,...]）
+public static void sort(数组);按照默认升序（从小到大）对数组的元素进行排序
+
+备注：
+1.如果是数值，sort默认按照升序从小到大
+2.如果是字符串，sort默认按照字母升序
+3.如果是自定义的类型，那么这个自定义的类需要有Comparable或者Comparator接口的支持
+
+/~~/
+
+java.util.Math类是数学相关的工具类，里面提供了大量的静态方法，完成与数学运算相关的操作
+
+public static double abs(double num);获取绝对值
+public static double ceil(double num);向上取整
+public static double floor(double num);向下取整
+public static long round(double num);四舍五入
+
+Math.PI代表近似的圆周率常量（double）
