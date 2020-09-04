@@ -1,3 +1,30 @@
+IDEA常用快捷操作
+5.fori :for(int i=0;i<5;i++){}
+psvm :public stastic void main(String[] args){}
+sout :System.out.println();
+shift+F6:改变所有相同的量，改变一个，其他的跟着一起改变！
+选中一个代码然后Ctrl+c+v可以复制整个代码新建一个新的界面
+array.fori:for(i=0;i<=array.length;i++){}
+array.forr:for(i=array.length-1;i>=0;i--){}
+Alt + Insert -->生成Getter和Setter函数以及产生有参和无参构造方法
+
+IDEA常用的快捷键
+Alt+Enter 	导入包，自动修正代码 （对错误代码进行修复）
+Ctrl+Y 	删除光标所在行
+Ctrl+D	复制光标所在行的内容，插入光标位置下面
+Ctrl+Alt+L	格式化代码
+Ctrl+/	单行注释
+Ctrl+Shift+/	选中代码注释，多行注释，再按取消注释
+Alt+Ins	自动生成代码，toString，get，set等方法
+Alt+Shift+上下箭头	移动当前代码行
+Alt + 4	运行过一次之后的程序，可以通过这个快捷键再次查看运行结果
+Shift + enter	切换到下一行
+Ctrl+Alt+enter	切换到上一行
+
+
+
+/~~/
+
 复习之前学习过的方法入门知识
 
 定义格式：
