@@ -71,7 +71,7 @@ Java语言主要应用在互联网程序的开发领域。常见的互联网程�
 
 二进制数据转化成十进制数据：使用8421编码方式
 
-![](https://images.cnblogs.com/cnblogs_com/yxc-160206/1841727/o_200905001311十进制转成二进制.png)
+![十进制转换成二进制](https://images.cnblogs.com/cnblogs_com/yxc-160206/1841727/o_200905001311十进制转成二进制.png)
 
 小贴士： 
 
