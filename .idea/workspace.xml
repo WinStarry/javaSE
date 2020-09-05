@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/day12-01-code/day12-01【Object类、常用API】.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day12-01-code/day12-01【Object类、常用API】.md" afterPath="$PROJECT_DIR$/day12-01-code/day12-01-notes.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +15,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="day12-01-notes.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day12-01-code/day12-01-notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1599230693007" expanded="false" signature="1159:1170" ph=" { " />
+                  <marker date="1599230693007" expanded="false" signature="1235:1241" ph=" }" />
+                  <marker date="1599230693007" expanded="true" signature="1933:2316" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="3586:3796" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="4686:4742" ph="..." />
+                  <marker date="1599230693007" expanded="true" signature="4825:4945" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="5139:5218" ph="..." />
+                  <marker date="1599230693007" expanded="true" signature="5324:5546" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="5599:5711" ph="..." />
+                  <marker date="1599230693007" expanded="true" signature="5839:6044" ph="{...}" />
+                  <marker date="1599230693007" expanded="false" signature="7266:7277" ph=" { " />
+                  <marker date="1599230693007" expanded="false" signature="7315:7321" ph=" }" />
+                  <marker date="1599230693007" expanded="true" signature="8214:8558" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="8685:8862" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="9055:9393" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="9477:9519" ph="..." />
+                  <marker date="1599230693007" expanded="true" signature="9600:9755" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="10328:10428" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="10553:10797" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="11523:11762" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="11938:12026" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="12893:13108" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="13445:14074" ph="{...}" />
+                  <marker date="1599230693007" expanded="true" signature="13859:13961" ph="//..." />
+                  <marker date="1599230693007" expanded="true" signature="14281:14493" ph="{...}" />
+                  <marker date="1599230693007" expanded="false" signature="16315:16326" ph=" { " />
+                  <marker date="1599230693007" expanded="false" signature="16360:16366" ph=" }" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,72 +180,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yang" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yang" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day01-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yang" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="day04-code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day12-01-code" type="462c0819:PsiDirectoryNode" />
+              <item name="day13-02-code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,19 +441,19 @@
       <workItem from="1599086610084" duration="12881000" />
       <workItem from="1599172004419" duration="25992000" />
       <workItem from="1599230150122" duration="1414000" />
-      <workItem from="1599256560449" duration="8930000" />
+      <workItem from="1599256560449" duration="9531000" />
+      <workItem from="1599343411642" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49217000" />
+    <option name="totallyTimeSpent" value="50446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -464,11 +461,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32663316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32663316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32663316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Word Book" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -480,6 +477,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -504,13 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day08-code/src/com/yang/demo/test/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day08-code/src/com/yang/demo/demo03/Demo04Static.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -774,116 +765,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day12-01-code/day12-01【Object类、常用API】.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1599230693007" expanded="false" signature="1159:1170" ph=" { " />
-              <marker date="1599230693007" expanded="false" signature="1235:1241" ph=" }" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day12-01-code/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/ceshi.assets/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/ceshi.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="86" lean-forward="true" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day01-code/note.md" />
+    <entry file="file://$PROJECT_DIR$/day01-code/ceshi.assets/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/day01-code/ceshi.md" />
     <entry file="file://$PROJECT_DIR$/day01-code/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test.java" />
+    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test02.java" />
+    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test03.java" />
+    <entry file="file://$PROJECT_DIR$/day01-code/src/com/yang/demo/demo01/Test04.java" />
     <entry file="file://$PROJECT_DIR$/day01-code/day01-notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1599288090590" expanded="true" signature="3897:3981" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="4094:4194" ph="{...}" />
-              <marker date="1599288090590" expanded="true" signature="4098:4150" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="6161:6709" ph="{...}" />
-              <marker date="1599288090590" expanded="true" signature="6478:6596" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="6659:6706" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="7907:9062" ph="{...}" />
-              <marker date="1599288090590" expanded="true" signature="7911:7936" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="7951:7983" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="8135:8175" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="8909:9000" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="9404:10161" ph="{...}" />
-              <marker date="1599288090590" expanded="true" signature="9569:9663" ph="//..." />
-              <marker date="1599288090590" expanded="true" signature="9782:9864" ph="//..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -893,10 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +807,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1253">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13-02-code/day13-02-notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12-01-code/day12-01-notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1599230693007" expanded="false" signature="1159:1170" ph=" { " />
+              <marker date="1599230693007" expanded="false" signature="1235:1241" ph=" }" />
+              <marker date="1599230693007" expanded="true" signature="1933:2316" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="3586:3796" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="4686:4742" ph="..." />
+              <marker date="1599230693007" expanded="true" signature="4825:4945" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="5139:5218" ph="..." />
+              <marker date="1599230693007" expanded="true" signature="5324:5546" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="5599:5711" ph="..." />
+              <marker date="1599230693007" expanded="true" signature="5839:6044" ph="{...}" />
+              <marker date="1599230693007" expanded="false" signature="7266:7277" ph=" { " />
+              <marker date="1599230693007" expanded="false" signature="7315:7321" ph=" }" />
+              <marker date="1599230693007" expanded="true" signature="8214:8558" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="8685:8862" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="9055:9393" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="9477:9519" ph="..." />
+              <marker date="1599230693007" expanded="true" signature="9600:9755" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="10328:10428" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="10553:10797" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="11523:11762" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="11938:12026" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="12893:13108" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="13445:14074" ph="{...}" />
+              <marker date="1599230693007" expanded="true" signature="13859:13961" ph="//..." />
+              <marker date="1599230693007" expanded="true" signature="14281:14493" ph="{...}" />
+              <marker date="1599230693007" expanded="false" signature="16315:16326" ph=" { " />
+              <marker date="1599230693007" expanded="false" signature="16360:16366" ph=" }" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
