@@ -1,4 +1,4 @@
-package com.yang.demo.demo01;
+package com.yang.demo.demo01Collection;
 
 import java.util.Scanner;
 

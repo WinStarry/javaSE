@@ -1,4 +1,4 @@
-package com.yang.demo.demo01;
+package com.yang.demo.demo01Collection;
 
 /**
  * @data 2020/8/29 -16:59
