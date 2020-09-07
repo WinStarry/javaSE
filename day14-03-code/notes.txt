@@ -1,0 +1,48 @@
+java.util.LinkedHashSet集合 extends HashSet集合
+LinkedHashSet集合特点：
+    底层是一个哈希表(数组+链表/红黑树)+链表：多了一条链表(记录元素的顺序)，保证元素有序
+
+
+/~~/
+
+
+可变参数是JDK1.5之后出现的新特性
+使用前提：
+    当方法的参数列表数据类型已经确定时，但是参数的个数不确定，就可以使用可变参数
+使用格式：定义方法时使用
+    修饰符 返回值类型 方法名(数据类型...变量名){}
+可变参数的原理：
+    可变参数的底层是一个数组，根据传递参数的个数不同，会创建不同长度的数组，来存储这些参数
+    传递的参数个数，可以是0个(不传递),1,2,...多个
+注意事项：
+    1.一个方法的参数列表中只能有一个可变参数
+    2.如果方法的参数有多个，那么可变参数必须放在所有参数的最后面，即参数列表的末尾。
+可变参数的特殊(终极)写法
+    public static void method(Object...obj){}
+
+
+/~~/
+
+
+java.utils.Collections是集合工具类，用来对集合进行操作。
+public static <T> void sort(List<T> list):将集合中的元素按默认规则进行排序
+注意：
+    sort(List<T> list)的使用前提：
+        被排序的集合里边的元素必须实现Comparable,重写接口中的CompareTo()方法定义排序的规则
+
+Comparable接口的排序规则：
+    自己(this)-参数：升序；反之降序
+
+
+/~~/
+
+
+java.utils.Collections`是集合工具类，用来对集合进行操作。
+public static <T> void sort(List<T> list，Comparator<? super T> ):将集合中元素按照指定规则排序。
+
+Comparator和Comparable的区别
+    Comparable:自己(this)和别人(参数)比较，自己需要实现Comparable接口，重写比较规则的CompareTo()方法。
+    Comparator:相当于找一个第三方的裁判，比较两个
+
+Comparator排序规则：
+    o1-o2:升序
