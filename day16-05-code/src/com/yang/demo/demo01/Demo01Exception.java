@@ -7,4 +7,5 @@ java.lang.Throwable类是Java中所有异常或错误的超类
     Error:错误，必须修改代码，程序才能运行
  */
 public class Demo01Exception {
+
 }
