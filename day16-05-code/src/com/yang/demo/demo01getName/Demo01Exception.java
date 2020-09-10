@@ -1,4 +1,4 @@
-package com.yang.demo.demo01;
+package com.yang.demo.demo01getName;
 
 /*
 java.lang.Throwable类是Java中所有异常或错误的超类

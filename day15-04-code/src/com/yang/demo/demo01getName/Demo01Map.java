@@ -1,4 +1,4 @@
-package com.yang.demo.demo01;
+package com.yang.demo.demo01getName;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -78,7 +78,7 @@
 方法演示：
 
 ~~~java
-package com.yang.demo.demo01;
+package com.yang.demo.demo01getName;
 
 /*
     java.util.Collection接口
