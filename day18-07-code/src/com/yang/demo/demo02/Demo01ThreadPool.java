@@ -1,3 +1,9 @@
+package com.yang.demo.demo02;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+/*
 线程池：JDK1.5之后提供的
 java.util.concurrent.Executors：线程池的工厂类，用来生成线程池
 Executors类中的静态方法
@@ -17,32 +23,15 @@ java.util.concurrent.ExecutorService:线程池接口
     2.创建一个类实现Runnable接口，重写run()方法，设置线程池任务
     3.调用ExecutorService中的方法submit,传递线程任务(实现类)，开启线程，执行run()方法
     4.调用ExecutorService中的方法shutdown()销毁线程池（不建议执行此步）
-
-
-/~~/
-
-
-Lambda表达式的标准格式:
-        由三部分组成:
-            a.一些参数
-            b.一个箭头
-            c.一段代码
-        格式:
-            (参数列表) -> {一些重写方法的代码};
-        解释说明格式:
-            ():接口中抽象方法的参数列表,没有参数,就空着;有参数就写出参数,多个参数使用逗号分隔
-            ->:传递的意思,把参数传递给方法体{}
-            {}:重写接口的抽象方法的方法体
-
-
-
-/~~/
-
-
-Lambda表达式:是可推导,可以省略
-    凡是根据上下文推导出来的内容,都可以省略书写
-    可以省略的内容:
-        1.(参数列表):括号中参数列表的数据类型,可以省略不写
-        2.(参数列表):括号中的参数如果只有一个,那么类型和()都可以省略
-        3.{一些代码}:如果{}中的代码只有一行,无论是否有返回值,都可以省略({},return,分号)
-            注意:要省略{},return,分号必须一起省略
+ */
+public class Demo01ThreadPool {
+    public static void main(String[] args) {
+        //1.使用线程池的工厂类Executors里面提供的静态方法newFixedThreadPool生产一个指定线程数量的线程池
+        ExecutorService es = Executors.newFixedThreadPool(2);
+        //3.调用ExecutorService中的方法submit,传递线程任务(实现类)，开启线程，执行run()方法
+        es.submit(new RunnableImpl());//pool-1-thread-1创建了一个新的线程执行！
+        //线程池会一直开启，使用完了线程，会自动把线程归还给线程池，线程可以继续使用
+        es.submit(new RunnableImpl());//pool-1-thread-1创建了一个新的线程执行！
+        es.submit(new RunnableImpl());//pool-1-thread-2创建了一个新的线程执行！
+    }
+}
