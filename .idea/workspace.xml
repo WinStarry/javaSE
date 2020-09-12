@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day18-07-code/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day18-07-code/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +44,18 @@
     <option name="jreName" value="9.0" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
+  <component name="ProjectId" id="1hNnvb182Jt3UufY1CM1FOzqY7p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day19-08-code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day20-09-notes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
@@ -73,7 +76,7 @@
       <recent name="F:\java_study\javaSE\day01-code\ceshi.assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01ThreadPool">
+  <component name="RunManager" selected="Application.Demo01TryCatch">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -81,13 +84,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Demo01ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo02.Demo01ThreadPool" />
-      <module name="day18-07-code" />
+    <configuration name="Demo01TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo06trycatch.Demo01TryCatch" />
+      <module name="day20-09-notes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.demo.demo02.*" />
+          <option name="PATTERN" value="com.yang.demo.demo06trycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01Ticket (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo07Synchronized.Demo01Ticket" />
-      <module name="day17-06-code" />
+    <configuration name="Demo01Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo01Writer" />
+      <module name="day20-09-notes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.demo.demo07Synchronized.*" />
+          <option name="PATTERN" value="com.yang.demo.demo05Writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01Ticket (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo08Synchronized.Demo01Ticket" />
-      <module name="day17-06-code" />
+    <configuration name="Demo02CloseAndFlush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo02CloseAndFlush" />
+      <module name="day20-09-notes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.demo.demo08Synchronized.*" />
+          <option name="PATTERN" value="com.yang.demo.demo05Writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01Ticket (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo09Lock.Demo01Ticket" />
-      <module name="day17-06-code" />
+    <configuration name="Demo03Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo03Writer" />
+      <module name="day20-09-notes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.demo.demo09Lock.*" />
+          <option name="PATTERN" value="com.yang.demo.demo05Writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo10WaitAndNotify.Demo01WaitAndNotify" />
-      <module name="day17-06-code" />
+    <configuration name="Demo04Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo04Writer" />
+      <module name="day20-09-notes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.demo.demo10WaitAndNotify.*" />
+          <option name="PATTERN" value="com.yang.demo.demo05Writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +160,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,22 +199,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo01Ticket (1)" />
-      <item itemvalue="Application.Demo01Ticket (2)" />
-      <item itemvalue="Application.Demo01Ticket (3)" />
-      <item itemvalue="Application.Demo01WaitAndNotify" />
-      <item itemvalue="Application.Demo01ThreadPool" />
+      <item itemvalue="Application.Demo01Writer" />
+      <item itemvalue="Application.Demo02CloseAndFlush" />
+      <item itemvalue="Application.Demo03Writer" />
+      <item itemvalue="Application.Demo04Writer" />
+      <item itemvalue="Application.Demo01TryCatch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo01ThreadPool" />
-        <item itemvalue="Application.Demo01WaitAndNotify" />
-        <item itemvalue="Application.Demo01Ticket (3)" />
-        <item itemvalue="Application.Demo01Ticket (2)" />
-        <item itemvalue="Application.Demo01Ticket (1)" />
+        <item itemvalue="Application.Demo01TryCatch" />
+        <item itemvalue="Application.Demo04Writer" />
+        <item itemvalue="Application.Demo03Writer" />
+        <item itemvalue="Application.Demo02CloseAndFlush" />
+        <item itemvalue="Application.Demo01Writer" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -232,11 +238,12 @@
       <workItem from="1599725079812" duration="1362000" />
       <workItem from="1599726649987" duration="8341000" />
       <workItem from="1599774929919" duration="1242000" />
+      <workItem from="1599860655790" duration="14408000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1599792015317">
@@ -247,30 +254,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599790149666" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1599792427870">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1599874426196">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599792427870" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1599792427870">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
+    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1599874426196">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599792427870" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1599792427870">
+    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
+    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1599874426196">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599792427870" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1599792427870">
+    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1599874426196">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599792427870" />
-    <state x="184" y="13" key="SettingsEditor" timestamp="1599778805666">
+    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
+    <state x="184" y="13" key="SettingsEditor" timestamp="1599872313830">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599778805666" />
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599872313830" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599817346307">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1599817346307" />
     <state x="115" y="0" key="new project wizard" timestamp="1599816691674">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="115" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1599816691674" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599870209456">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599870209456" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
