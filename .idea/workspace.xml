@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day21-10-notes/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day21-10-notes/notes.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day20-09-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day21-10-notes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
@@ -70,11 +67,11 @@
       <recent name="com.yang.demo.demo07Synchronized" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_study\javaSE\day21-10-notes" />
       <recent name="F:\java_study\javaSE\day20-09-notes" />
       <recent name="F:\java_study\javaSE\day19-08-code" />
       <recent name="F:\java_study\javaSE\day18-07-code" />
       <recent name="F:\java_study\javaSE\day17-06-code" />
-      <recent name="F:\java_study\javaSE\day17-06-code\src\com\yang\demo\demo09Lock" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Demo01TryCatch">
@@ -239,7 +236,7 @@
       <workItem from="1599725079812" duration="1362000" />
       <workItem from="1599726649987" duration="8341000" />
       <workItem from="1599774929919" duration="1242000" />
-      <workItem from="1599860655790" duration="16421000" />
+      <workItem from="1599860655790" duration="17463000" />
     </task>
     <servers />
   </component>
@@ -279,10 +276,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1599817346307" />
-    <state x="115" y="0" key="new project wizard" timestamp="1599877303033">
+    <state x="115" y="0" key="new project wizard" timestamp="1599888943318">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="115" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1599877303033" />
+    <state x="115" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1599888943318" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599870209456">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
