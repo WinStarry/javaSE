@@ -1,0 +1,228 @@
+java.io.BufferedOutputStream extends OutputStream
+    BufferedOutputStream:字节缓冲输出流
+
+    继承自父类的共性成员方法:
+        - public void close() ：关闭此输出流并释放与此流相关联的任何系统资源。
+        - public void flush() ：刷新此输出流并强制任何缓冲的输出字节被写出。
+        - public void write(byte[] b)：将 b.length字节从指定的字节数组写入此输出流。
+        - public void write(byte[] b, int off, int len) ：从指定的字节数组写入 len字节，从偏移量 off开始输出到此输出流。
+        - public abstract void write(int b) ：将指定的字节输出流。
+
+     构造方法:
+        BufferedOutputStream(OutputStream out)  创建一个新的缓冲输出流，以将数据写入指定的底层输出流。
+        BufferedOutputStream(OutputStream out, int size)  创建一个新的缓冲输出流，以将具有指定缓冲区大小的数据写入指定的底层输出流。
+        参数:
+           OutputStream out:字节输出流
+                我们可以传递FileOutputStream,缓冲流会给FileOutputStream增加一个缓冲区,提高FileOutputStream的写入效率
+           int size:指定缓冲流内部缓冲区的大小,不指定默认
+     使用步骤(重点)
+        1.创建FileOutputStream对象,构造方法中绑定要输出的目的地
+        2.创建BufferedOutputStream对象,构造方法中传递FileOutputStream对象对象,提高FileOutputStream对象效率
+        3.使用BufferedOutputStream对象中的方法write,把数据写入到内部缓冲区中
+        4.使用BufferedOutputStream对象中的方法flush,把内部缓冲区中的数据,刷新到文件中
+        5.释放资源(会先调用flush方法刷新数据,第4部可以省略)
+
+
+/~~/
+
+
+java.io.BufferedWriter extends Writer
+    BufferedWriter:字符缓冲输出流
+
+    继承自父类的共性成员方法:
+        - void write(int c) 写入单个字符。
+        - void write(char[] cbuf)写入字符数组。
+        - abstract  void write(char[] cbuf, int off, int len)写入字符数组的某一部分,off数组的开始索引,len写的字符个数。
+        - void write(String str)写入字符串。
+        - void write(String str, int off, int len) 写入字符串的某一部分,off字符串的开始索引,len写的字符个数。
+        - void flush()刷新该流的缓冲。
+        - void close() 关闭此流，但要先刷新它。
+
+    构造方法:
+        BufferedWriter(Writer out) 创建一个使用默认大小输出缓冲区的缓冲字符输出流。
+        BufferedWriter(Writer out, int sz) 创建一个使用给定大小输出缓冲区的新缓冲字符输出流。
+        参数:
+            Writer out:字符输出流
+                我们可以传递FileWriter,缓冲流会给FileWriter增加一个缓冲区,提高FileWriter的写入效率
+            int sz:指定缓冲区的大小,不写默认大小
+
+    特有的成员方法:
+        void newLine() 写入一个行分隔符。会根据不同的操作系统,获取不同的行分隔符
+        换行:换行符号
+        windows:\r\n
+        linux:/n
+        mac:/r
+     使用步骤:
+        1.创建字符缓冲输出流对象,构造方法中传递字符输出流
+        2.调用字符缓冲输出流中的方法write,把数据写入到内存缓冲区中
+        3.调用字符缓冲输出流中的方法flush,把内存缓冲区中的数据,刷新到文件中
+        4.释放资源
+
+
+
+/~~/
+
+
+java.io.BufferedReader extends Reader
+    BufferedReader:字符缓冲输入流
+
+    继承自父类的共性成员方法:
+        int read() 读取单个字符并返回。
+        int read(char[] cbuf)一次读取多个字符,将字符读入数组。
+        void close() 关闭该流并释放与之关联的所有资源。
+
+     构造方法:
+        BufferedReader(Reader in)  创建一个使用默认大小输入缓冲区的缓冲字符输入流。
+        BufferedReader(Reader in, int sz)     创建一个使用指定大小输入缓冲区的缓冲字符输入流。
+        参数:
+            Reader in:字符输入流
+                我们可以传递FileReader,缓冲流会给FileReader增加一个缓冲区,提高FileReader的读取效率
+     特有的成员方法:
+        String readLine() 读取一个文本行。读取一行数据
+            行的终止符号:通过下列字符之一即可认为某行已终止：换行 ('\n')、回车 ('\r') 或回车后直接跟着换行(\r\n)。
+        返回值:
+            包含该行内容的字符串，不包含任何行终止符，如果已到达流末尾，则返回 null
+
+     使用步骤:
+        1.创建字符缓冲输入流对象,构造方法中传递字符输入流
+        2.使用字符缓冲输入流对象中的方法read/readLine读取文本
+        3.释放资源
+
+
+/~~/
+
+
+
+java.io.OutputStreamWriter extends Writer
+    OutputStreamWriter: 是字符流通向字节流的桥梁：可使用指定的 charset 将要写入流中的字符编码成字节。(编码:把能看懂的变成看不懂)
+
+    继续自父类的共性成员方法:
+        - void write(int c) 写入单个字符。
+        - void write(char[] cbuf)写入字符数组。
+        - abstract  void write(char[] cbuf, int off, int len)写入字符数组的某一部分,off数组的开始索引,len写的字符个数。
+        - void write(String str)写入字符串。
+        - void write(String str, int off, int len) 写入字符串的某一部分,off字符串的开始索引,len写的字符个数。
+        - void flush()刷新该流的缓冲。
+        - void close() 关闭此流，但要先刷新它。
+    构造方法:
+        OutputStreamWriter(OutputStream out)创建使用默认字符编码的 OutputStreamWriter。
+        OutputStreamWriter(OutputStream out, String charsetName) 创建使用指定字符集的 OutputStreamWriter。
+        参数:
+            OutputStream out:字节输出流,可以用来写转换之后的字节到文件中
+            String charsetName:指定的编码表名称,不区分大小写,可以是utf-8/UTF-8,gbk/GBK,...不指定默认使用UTF-8
+    使用步骤:
+        1.创建OutputStreamWriter对象,构造方法中传递字节输出流和指定的编码表名称
+        2.使用OutputStreamWriter对象中的方法write,把字符转换为字节存储缓冲区中(编码)
+        3.使用OutputStreamWriter对象中的方法flush,把内存缓冲区中的字节刷新到文件中(使用字节流写字节的过程)
+        4.释放资源
+
+
+/~~/
+
+
+java.io.InputStreamReader extends Reader
+    InputStreamReader:是字节流通向字符流的桥梁：它使用指定的 charset 读取字节并将其解码为字符。(解码:把看不懂的变成能看懂的)
+
+    继承自父类的共性成员方法:
+        int read() 读取单个字符并返回。
+        int read(char[] cbuf)一次读取多个字符,将字符读入数组。
+        void close() 关闭该流并释放与之关联的所有资源。
+    构造方法:
+        InputStreamReader(InputStream in) 创建一个使用默认字符集的 InputStreamReader。
+        InputStreamReader(InputStream in, String charsetName) 创建使用指定字符集的 InputStreamReader。
+        参数:
+            InputStream in:字节输入流,用来读取文件中保存的字节
+            String charsetName:指定的编码表名称,不区分大小写,可以是utf-8/UTF-8,gbk/GBK,...不指定默认使用UTF-8
+     使用步骤:
+        1.创建InputStreamReader对象,构造方法中传递字节输入流和指定的编码表名称
+        2.使用InputStreamReader对象中的方法read读取文件
+        3.释放资源
+     注意事项:
+        构造方法中指定的编码表名称要和文件的编码相同,否则会发生乱码
+
+
+/~~/
+
+
+java.io.ObjectOutputStream extends OutputStream
+    ObjectOutputStream:对象的序列化流
+    作用:把对象以流的方式写入到文件中保存
+
+    构造方法:
+        ObjectOutputStream(OutputStream out) 创建写入指定 OutputStream 的 ObjectOutputStream。
+        参数:
+            OutputStream out:字节输出流
+    特有的成员方法:
+        void writeObject(Object obj) 将指定的对象写入 ObjectOutputStream。
+
+    使用步骤:
+        1.创建ObjectOutputStream对象,构造方法中传递字节输出流
+        2.使用ObjectOutputStream对象中的方法writeObject,把对象写入到文件中
+        3.释放资源
+
+
+/~~/
+
+
+
+java.io.ObjectInputStream extends InputStream
+    ObjectInputStream:对象的反序列化流
+    作用:把文件中保存的对象,以流的方式读取出来使用
+
+    构造方法:
+        ObjectInputStream(InputStream in) 创建从指定 InputStream 读取的 ObjectInputStream。
+        参数:
+            InputStream in:字节输入流
+    特有的成员方法:
+        Object readObject() 从 ObjectInputStream 读取对象。
+
+    使用步骤:
+        1.创建ObjectInputStream对象,构造方法中传递字节输入流
+        2.使用ObjectInputStream对象中的方法readObject读取保存对象的文件
+        3.释放资源
+        4.使用读取出来的对象(打印)
+
+     readObject方法声明抛出了ClassNotFoundException(class文件找不到异常)
+     当不存在对象的class文件时抛出此异常
+     反序列化的前提:
+        1.类必须实现Serializable
+        2.必须存在类对应的class文件
+
+
+
+/~~/
+
+
+
+java.io.PrintStream:打印流
+        PrintStream 为其他输出流添加了功能，使它们能够方便地打印各种数据值表示形式。
+    PrintStream特点:
+        1.只负责数据的输出,不负责数据的读取
+        2.与其他输出流不同，PrintStream 永远不会抛出 IOException
+        3.有特有的方法,print,println
+            void print(任意类型的值)
+            void println(任意类型的值并换行)
+    构造方法:
+        PrintStream(File file):输出的目的地是一个文件
+        PrintStream(OutputStream out):输出的目的地是一个字节输出流
+        PrintStream(String fileName) :输出的目的地是一个文件路径
+    PrintStream extends OutputStream
+    继承自父类的成员方法:
+        - public void close() ：关闭此输出流并释放与此流相关联的任何系统资源。
+        - public void flush() ：刷新此输出流并强制任何缓冲的输出字节被写出。
+        - public void write(byte[] b)：将 b.length字节从指定的字节数组写入此输出流。
+        - public void write(byte[] b, int off, int len) ：从指定的字节数组写入 len字节，从偏移量 off开始输出到此输出流。
+        - public abstract void write(int b) ：将指定的字节输出流。
+    注意:
+        如果使用继承自父类的write方法写数据,那么查看数据的时候会查询编码表 97->a
+        如果使用自己特有的方法print/println方法写数据,写的数据原样输出 97->97
+
+
+/~~/
+
+
+可以改变输出语句的目的地(打印流的流向)
+    输出语句,默认在控制台输出
+    使用System.setOut方法改变输出语句的目的地改为参数中传递的打印流的目的地
+        static void setOut(PrintStream out)
+          重新分配“标准”输出流。
