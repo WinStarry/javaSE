@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="" />
+    <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,25 +55,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day21-10-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day22-11-notes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\java_study\javaSE\day01-code" />
-      <recent name="F:\java_study\javaSE\day01-code\ceshi.assets" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_study\javaSE\day22-11-notes" />
+      <recent name="F:\java_study\javaSE\day21-10-notes" />
+      <recent name="F:\java_study\javaSE\day20-09-notes" />
+      <recent name="F:\java_study\javaSE\day19-08-code" />
+      <recent name="F:\java_study\javaSE\day18-07-code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yang.demo.demo08Synchronized" />
       <recent name="com.yang.demo.demo07Synchronized" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java_study\javaSE\day21-10-notes" />
-      <recent name="F:\java_study\javaSE\day20-09-notes" />
-      <recent name="F:\java_study\javaSE\day19-08-code" />
-      <recent name="F:\java_study\javaSE\day18-07-code" />
-      <recent name="F:\java_study\javaSE\day17-06-code" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java_study\javaSE\day01-code" />
+      <recent name="F:\java_study\javaSE\day01-code\ceshi.assets" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Demo01TryCatch">
@@ -158,19 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -236,7 +225,8 @@
       <workItem from="1599725079812" duration="1362000" />
       <workItem from="1599726649987" duration="8341000" />
       <workItem from="1599774929919" duration="1242000" />
-      <workItem from="1599860655790" duration="17463000" />
+      <workItem from="1599860655790" duration="18314000" />
+      <workItem from="1599947346596" duration="664000" />
     </task>
     <servers />
   </component>
@@ -252,22 +242,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599790149666" />
-    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1599874426196">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1599922526043">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
-    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1599874426196">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
+    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1599922526043">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
-    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1599874426196">
+    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
+    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1599922526043">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
-    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1599874426196">
+    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1599922526043">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599874426196" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1599872313830">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
