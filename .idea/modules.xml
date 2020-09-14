@@ -21,9 +21,10 @@
       <module fileurl="file://$PROJECT_DIR$/day17-06-code/day17-06-code.iml" filepath="$PROJECT_DIR$/day17-06-code/day17-06-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day18-07-code/day18-07-code.iml" filepath="$PROJECT_DIR$/day18-07-code/day18-07-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day19-08-code/day19-08-code.iml" filepath="$PROJECT_DIR$/day19-08-code/day19-08-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day20-09-notes/day20-09-notes.iml" filepath="$PROJECT_DIR$/day20-09-notes/day20-09-notes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day21-10-notes/day21-10-notes.iml" filepath="$PROJECT_DIR$/day21-10-notes/day21-10-notes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day22-11-notes/day22-11-notes.iml" filepath="$PROJECT_DIR$/day22-11-notes/day22-11-notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20-09-code/day20-09-code.iml" filepath="$PROJECT_DIR$/day20-09-code/day20-09-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21-10-code/day21-10-code.iml" filepath="$PROJECT_DIR$/day21-10-code/day21-10-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22-11-code/day22-11-code.iml" filepath="$PROJECT_DIR$/day22-11-code/day22-11-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23-12-code/day23-12-code.iml" filepath="$PROJECT_DIR$/day23-12-code/day23-12-code.iml" />
     </modules>
   </component>
 </project>

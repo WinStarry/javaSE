@@ -1,13 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8703f7f0-3538-4cf0-ad39-28cb3d7aa6f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/day23-12-code/day23-12-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/c.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/day20-09-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/day20-09-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/day20-09-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/day20-09-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/e.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/f.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/g.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo01OutputStream/Demo01OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo01OutputStream/Demo01OutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo01OutputStream/Demo02OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo01OutputStream/Demo02OutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo01OutputStream/Demo03OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo01OutputStream/Demo03OutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo02InputStream/Demo01InputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo02InputStream/Demo01InputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo02InputStream/Demo02InputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo02InputStream/Demo02InputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo03CopyFile/Demo01CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo03CopyFile/Demo01CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo04Reader/Demo02Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo04Reader/Demo02Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo04Reader/Demo04Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo04Reader/Demo04Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo05Writer/Demo01Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo05Writer/Demo01Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo05Writer/Demo02CloseAndFlush.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo05Writer/Demo02CloseAndFlush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo05Writer/Demo03Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo05Writer/Demo03Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo05Writer/Demo04Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo05Writer/Demo04Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo06trycatch/Demo01TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo06trycatch/Demo01TryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo06trycatch/Demo02JDK7.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo06trycatch/Demo02JDK7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo06trycatch/Demo03JDK9.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo06trycatch/Demo03JDK9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20-09-notes/src/com/yang/demo/demo07Prop/Demo01Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/day20-09-code/src/com/yang/demo/demo07Prop/Demo01Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day21-10-notes/day21-10-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day21-10-code/day21-10-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day21-10-notes/day21-10-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/day21-10-code/day21-10-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day21-10-notes/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day21-10-code/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22-11-notes/day22-11-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day22-11-code/day22-11-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22-11-notes/day22-11-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/day22-11-code/day22-11-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22-11-notes/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day22-11-code/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +136,7 @@
     </configuration>
     <configuration name="Demo01TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo06trycatch.Demo01TryCatch" />
-      <module name="day20-09-notes" />
+      <module name="day20-09-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +150,7 @@
     </configuration>
     <configuration name="Demo01Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo01Writer" />
-      <module name="day20-09-notes" />
+      <module name="day20-09-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +164,7 @@
     </configuration>
     <configuration name="Demo02CloseAndFlush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo02CloseAndFlush" />
-      <module name="day20-09-notes" />
+      <module name="day20-09-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +178,7 @@
     </configuration>
     <configuration name="Demo03Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo03Writer" />
-      <module name="day20-09-notes" />
+      <module name="day20-09-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +192,7 @@
     </configuration>
     <configuration name="Demo04Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo04Writer" />
-      <module name="day20-09-notes" />
+      <module name="day20-09-code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -156,6 +206,19 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,7 +289,8 @@
       <workItem from="1599726649987" duration="8341000" />
       <workItem from="1599774929919" duration="1242000" />
       <workItem from="1599860655790" duration="18314000" />
-      <workItem from="1599947346596" duration="664000" />
+      <workItem from="1599947346596" duration="2751000" />
+      <workItem from="1600076688126" duration="1046000" />
     </task>
     <servers />
   </component>
@@ -266,10 +330,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1599817346307" />
-    <state x="115" y="0" key="new project wizard" timestamp="1599888943318">
+    <state x="115" y="0" key="new project wizard" timestamp="1600076803023">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="115" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1599888943318" />
+    <state x="115" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1600076803023" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599870209456">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
