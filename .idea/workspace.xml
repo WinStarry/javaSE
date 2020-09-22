@@ -91,13 +91,27 @@
       <recent name="F:\java_study\javaSE\day01-code\ceshi.assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01TryCatch">
+  <component name="RunManager" selected="Application.Demo01String">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Demo01String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo01Collection.Demo01String" />
+      <module name="day08-code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.demo.demo01Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Demo01TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo06trycatch.Demo01TryCatch" />
@@ -106,20 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yang.demo.demo06trycatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo01Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.demo.demo05Writer.Demo01Writer" />
-      <module name="day20-09-code" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yang.demo.demo05Writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,6 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -201,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo01Writer" />
       <item itemvalue="Application.Demo02CloseAndFlush" />
       <item itemvalue="Application.Demo03Writer" />
       <item itemvalue="Application.Demo04Writer" />
       <item itemvalue="Application.Demo01TryCatch" />
+      <item itemvalue="Application.Demo01String" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01String" />
         <item itemvalue="Application.Demo01TryCatch" />
         <item itemvalue="Application.Demo04Writer" />
         <item itemvalue="Application.Demo03Writer" />
         <item itemvalue="Application.Demo02CloseAndFlush" />
-        <item itemvalue="Application.Demo01Writer" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +258,7 @@
       <workItem from="1600332318671" duration="1401000" />
       <workItem from="1600525109575" duration="626000" />
       <workItem from="1600570099237" duration="4630000" />
+      <workItem from="1600751786556" duration="4682000" />
     </task>
     <servers />
   </component>
@@ -262,22 +274,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599790149666" />
-    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1599922526043">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1600755387038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
-    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1599922526043">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600755387038" />
+    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1600755387038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
-    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1599922526043">
+    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600755387038" />
+    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1600755387038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
-    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1599922526043">
+    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600755387038" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1600755387038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599922526043" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600755387038" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1599872313830">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
